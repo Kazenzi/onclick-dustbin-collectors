@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/mTvname"
+        android:textColor="@color/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ONCLICK DUSTBIN COLLECTORS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/medtfedname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:drawableStart="@drawable/ic_baseline_perrson"
+        android:ems="10"
+        android:textColorHint="@color/hint"
+        android:hint="EnterName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/medtrephone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvname"
+        android:drawableLeft="@drawable/ic_baseline_perrson" />
+
+    <EditText
+        android:id="@+id/medtrephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        android:drawableStart="@drawable/ic_baseline_phone_iphone_24"
+        android:ems="10"
+        android:hint="EnterPhone"
+        android:inputType="phone"
+        android:textColorHint="@color/hint"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/medtcomplain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medtfedname"
+        android:drawableLeft="@drawable/ic_baseline_phone_iphone_24" />
+
+    <EditText
+        android:id="@+id/medtcomplain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textColorHint="@color/hint"
+        android:drawableStart="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="TypeComplaint"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/mbtnsubcomp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medtrephone"
+        app:layout_constraintVertical_bias="0.18"
+        android:drawableLeft="@drawable/ic_baseline_sentiment_very_dissatisfied_24" />
+
+    <Button
+        android:id="@+id/mbtnsubcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/custom_btn"
+        android:textColor="@color/text"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medtcomplain" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

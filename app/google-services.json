@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654819009836",
+    "project_id": "onclick-dustbin-collectors",
+    "storage_bucket": "onclick-dustbin-collectors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654819009836:android:c43c8fc6a695872491f889",
+        "android_client_info": {
+          "package_name": "com.example.onclickdustbincolectors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654819009836-oonrhnobv5vdd5lun65l2kpmbvcc8bo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcHdbyiaBNBEJhzGqVIC0FVNmMa31kiRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654819009836-oonrhnobv5vdd5lun65l2kpmbvcc8bo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
